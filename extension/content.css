@@ -1,0 +1,37 @@
+/* Styles for elements injected into Codeforces pages */
+
+.cf-predictor-cell {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.cf-predictor-positive {
+    color: #00ff88;
+    background-color: rgba(0, 255, 136, 0.1);
+}
+
+.cf-predictor-negative {
+    color: #ff0055;
+    background-color: rgba(255, 0, 85, 0.1);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Highlight the user's row if needed */
+.cf-predictor-highlight {
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.3) inset;
+    transition: box-shadow 0.3s ease;
+}

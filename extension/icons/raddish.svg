@@ -1,0 +1,20 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path fill="#f783ac" d="M256 64c-88.4 0-160 71.6-160 160 0 120 160 256 160 256s160-136 160-256c0-88.4-71.6-160-160-160z"/>
+  
+  <!-- Cheeks -->
+  <circle cx="180" cy="220" r="20" fill="#f06595" opacity="0.6"/>
+  <circle cx="332" cy="220" r="20" fill="#f06595" opacity="0.6"/>
+  
+  <!-- Eyes -->
+  <circle cx="180" cy="190" r="15" fill="#333"/>
+  <circle cx="332" cy="190" r="15" fill="#333"/>
+  
+  <!-- Smile -->
+  <path fill="none" stroke="#333" stroke-width="12" stroke-linecap="round" d="M220 260s15 15 36 15 36-15 36-15"/>
+  
+  <!-- Leaves -->
+  <path fill="#aed581" d="M256 64C236 24 196 0 156 0c0 0 40 40 40 80h60z"/>
+  <path fill="#8bc34a" d="M256 64c20-40 60-64 100-64 0 0-40 40-40 80h-60z"/>
+  <path fill="#7cb342" d="M256 64V32c0-17.7-14.3-32-32-32 0 0 16 32 32 64z"/>
+</svg>
