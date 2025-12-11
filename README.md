@@ -3,7 +3,7 @@
 <div align="center">
   <img src="extension/icons/raddish.svg" width="120" height="120" alt="Raddish Logo">
   <br>
-  <b>The cutest Codeforces Rating Predictor you'll ever see.</b>
+  <b>Advanced Real-time Codeforces Rating Predictor.</b>
   <br>
   <br>
   <p>
@@ -14,16 +14,16 @@
 ---
 
 ## 📖 About
-**Raddish** is a premium, real-time rating predictor Chrome Extension for Competitive Programmers. Unlike boring, standard tools, Raddish brings a vibrant **Glassmorphism** design and a friendly mascot to your Codeforces experience.
+**Raddish** is a premium, real-time rating predictor Chrome Extension for Competitive Programmers. Raddish combines a robust deep learning model with a modern, high-performance UI to enhance your competitive programming workflow.
 
-Behind the cute face lies a powerful **LSTM (Long Short-Term Memory)** neural network that analyzes your contest history to forecast your next rating change with high precision.
+At its core lies a powerful **LSTM (Long Short-Term Memory)** neural network that analyzes your contest history to forecast your next rating change with high precision, delivered through a sleek **Glassmorphism** interface.
 
 ## ✨ Features
 *   **Deep Learning Core**: Utilizes a PyTorch LSTM model trained on contest history sequences.
 *   **Smart Caching**: Integrates with **MongoDB** to store user history and reduce redundant computations.
 *   **Premium UI**: A sleek, dark-moded, glassmorphic interface with micro-animations.
 *   **Real-time Predictions**: Instant feedback on your predicted rating changes.
-*   **Cute Mascot**: Because competitive programming is stressful, and you deserve a smiling radish.
+*   **User-Centric Design**: A polished, intuitive interface designed for efficiency.
 
 ## 🛠️ Tech Stack
 *   **Frontend**: HTML5, Vanilla CSS3 (Glassmorphism), JavaScript (ES6+).
@@ -97,12 +97,12 @@ The backend handles the ML inference and data fetching.
 2.  Click the **Raddish** icon in your browser.
 3.  Enter a Codeforces Handle (e.g., `tourist`, `Benq` or your own).
 4.  Click **Predict Now**.
-5.  View your predicted rating and delta with a smile!
+5.  View your predicted rating and delta instantly.
 
 ---
 
 ## 🤝 Contributing
-Feel free to open issues or submit pull requests. If you want to improve the model or add more cute animations, go ahead!
+Feel free to open issues or submit pull requests. If you want to improve the model or optimize the codebase, contributions are welcome.
 
 ## 📄 License
 MIT License.
