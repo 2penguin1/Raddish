@@ -35,7 +35,7 @@ At its core lies a powerful **LSTM (Long Short-Term Memory)** neural network tha
 
 ## 🚀 Installation & Setup
 
-Since the `venv` and `__pycache__` are not included in the repository (best practices!), you need to set up the environment locally.
+Since the `venv` and `__pycache__` are not included in the repository, you need to set up the environment locally.
 
 ### 1. Clone the Repository
 ```bash
